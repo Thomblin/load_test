@@ -1,15 +1,18 @@
-Simple load_testing script
+# Simple load_testing script
 
-Install
+## Install
 
 `python3 -m venv venv`
 `source venv/bin/activate`
 
 `pip install -r requirements.txt`
 
-Run
+## Run
 
 simply run `python3 load_test.py`
+
+
+## Configuration
 
 to configure the rate of requests change the line
 
