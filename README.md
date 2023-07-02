@@ -9,8 +9,14 @@
 
 ## Run
 
-simply run `python3 load_test.py`
+copy websites_example.txt to websites.txt and update it to match your test urls
+copy config_example.ini to config.ini and adjust your request rate
 
+run `python3 load_test.py`
+
+statistics will be printed and show as a graph
+the test is stopped if requests are slowing down or not responded successfully or if you close the window
+on close the current graph will be stored as png
 
 ## Configuration
 
